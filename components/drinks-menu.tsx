@@ -57,7 +57,7 @@ export default function DrinksMenu() {
     },
     {
       id: "busatinho",
-      name: "BUSATÑO",
+      name: "BUSATIÑO",
       ingredients: "Vodka, jugo de pomelo, azúcar, splash de Chandon",
       price: "$68",
       color: "bg-pink-500/20",
