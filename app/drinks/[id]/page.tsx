@@ -41,7 +41,7 @@ const drinksData: Drink[] = [
   },
   {
     id: "embassador-tonic",
-    name: "EL EMBASSADOR",
+    name: "EMBASSADOR TONIC",
     ingredients: "Gin, agua tónica, Aperol, rodaja de naranja",
     price: "$70",
     color: "bg-orange-500/20",
@@ -59,7 +59,7 @@ const drinksData: Drink[] = [
   },
   {
     id: "busatinho",
-    name: "BUSATÑO",
+    name: "BUSATIÑO",
     ingredients: "vodka, jugo de lima y un dash de agua tónica",
     price: "$68",
     color: "bg-pink-500/20",
