@@ -8,6 +8,7 @@ import termitaImg from '../../assets/termita.jpg';
 import leopolditoImg from '../../assets/leopoldito.jpg';
 import embassadorImg from '../../assets/embassador.jpg';
 import uadeboys from '../../assets/UADE.jpg';
+import brunenger from '../../assets/brunenger.jpg'
 import { StaticImageData } from "next/image"; // Add this import for StaticImageData
 
 interface Drink {
@@ -84,6 +85,15 @@ const drinksData: Drink[] = [
     image: uadeboys,
     description: "Este trago es solo para los tipos cool que les gusta borrar bases de datos, leer mangas y programar con IA. Si estás haciendo volumen, este trago es ideal para vos! no hace falta que te lleves bananas de la ofi a tu casa."
   },
+  {
+    id: "Brunenger",
+    name: "Brunenger",
+    ingredients: "Ron, limón, pomelo, sprite",
+    price: "$62",
+    color: "bg-red-500/20",
+    image: brunenger,
+    description: "Este trago es solo para los nuevitos loleros que andan sufriendo mal de amores (todos). Mucha más info no tiene este trago, pero ron, pomelo y sprite? fuerte al medio o te gusta o te encanta",
+  }
 ];
 
 export default function DrinkDetails({ params }: { params: { id: string } }) {

@@ -9,6 +9,7 @@ import termitaImg from '../app/assets/termita.jpg';
 import leopolditoImg from '../app/assets/leopoldito.jpg';
 import embassadorImg from '../app/assets/embassador.jpg';
 import uadeboys from '../app/assets/UADE.jpg'
+import brunenger from '../app/assets/brunenger.jpg'
 import { StaticImageData } from "next/image"; // Add this import for StaticImageData
 
 
@@ -79,6 +80,14 @@ export default function DrinksMenu() {
       color: "bg-red-500/20",
       image: uadeboys,
     },
+    {
+      id: "Brunenger",
+      name: "Brunenger",
+      ingredients: "ron, limón, azucar, menta, sprite",
+      price: "$62",
+      color: "bg-red-500/20",
+      image: brunenger,
+    }
   ];
 
   return (
